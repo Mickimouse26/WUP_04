@@ -1,7 +1,7 @@
 ---
 title: "WUP_04"
-author: "Put your name here!"
-date: "fall 2020"
+author: "Michelle Coleman"
+date: "February 21, 2021"
 output:
   html_document:
     df_print: paged
@@ -12,6 +12,7 @@ require(knitr)
 require(tidyverse)
 require(tigerstats)
 
+GSSdata <- read.csv(file="GSScsv.csv")
 ```
 
 # Introduction
