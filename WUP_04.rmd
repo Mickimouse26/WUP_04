@@ -50,6 +50,12 @@ From the graph it looks like Graduate does better than LT High School, High Scho
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
+
+LT High School is the smallest, following by high school, bachelor,junior college and than graduate school mean was the highest over all.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
