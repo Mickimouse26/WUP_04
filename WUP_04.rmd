@@ -68,7 +68,7 @@ summary.aov(model1)
 ```
 
 ```{r}
-par(mar = c(3, 8.7, 2, 2))
+par(mar = c(3,14.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
